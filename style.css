@@ -1,0 +1,80 @@
+#myCarousel {
+  height: 600px;
+}
+
+#myCarousel .carousel-inner,
+#myCarousel .carousel-item,
+#myCarousel img {
+  height: 100%;
+}
+
+#myCarousel img {
+  object-fit: cover;
+}
+#myCarousel img {
+  transition: ease 0.5s;
+}
+#myCarousel h5 {
+  font-family: sans-serif, serif;
+  color: aliceblue;
+}
+#brandstatement {
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #222;
+  max-width: 720px;
+  margin: 3rem auto;
+  text-align: center;
+}
+#different {
+  margin: 4rem auto;
+}
+.project {
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+}
+.project pre {
+  font-family: "Poppins", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  white-space: pre-line; /* optional, looks more editorial */
+}
+
+.project figure {
+  max-width: 30%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.project figure img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+body{
+  background-color: hsl(180, 24%, 96%);
+}
+.image-zoom-wrapper {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image-zoom-wrapper img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease;
+}
+
+.image-zoom-wrapper:hover img {
+  transform: scale(1.08);
+}
+.card-hover {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card-hover:hover {
+  transform: scale(1.03);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.12);
+}
+
